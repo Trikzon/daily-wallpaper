@@ -1,0 +1,5 @@
+beautifulsoup4~=4.9.3
+praw~=3.5.0
+requests~=2.25.1
+setuptools~=54.2.0
+tqdm~=4.60.0
