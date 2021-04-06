@@ -25,19 +25,24 @@ For the best experience, run this every day (automatically) for good wallpapers 
 
 ## Dependencies
 
-To install all python dependencies:
-
-```
-$ pip install -r requirements.txt
-```
 
 ### Windows
 
 No further dependencies needed.
 
+To install all python dependencies:
+```
+$ py -m pip install -r .\requirements.txt
+```
+
 ### Linux
 
 Install [feh](https://wiki.archlinux.org/index.php/Feh) with your distro's package manager.
+
+To install all python dependencies:
+```
+$ pip install -r ./requirements.txt
+```
 
 #### Arch
 
