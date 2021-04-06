@@ -9,6 +9,9 @@ Wallpapers will download into a `./wallpapers` directory next to the `daily_wall
 
 For the best experience, run this every day (automatically) for good wallpapers each day.
 
+- Windows: Install [AutoHotkey](https://www.autohotkey.com/), edit `daily_wallpaper.ahk`, and place `daily_wallpaper.ahk` in `C:\Users\NAME\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup`.
+
+
 ## Dependencies
 
 To install all dependencies:
