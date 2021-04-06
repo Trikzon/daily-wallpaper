@@ -47,7 +47,7 @@ $ pip install -r ./requirements.txt
 #### Arch
 
 ```
-# pacman -S xwallpaper
+# pacman -S feh
 ```
 
 ## Credits
