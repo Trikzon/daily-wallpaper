@@ -84,11 +84,15 @@ def download_image(url):
 
 
 def set_wallpaper(image_path):
-    if platform.system() == "Windows":
+    system = platform.system()
+
+    if system == "Windows":
         import ctypes
         ctypes.windll.user32.SystemParametersInfoW(20, 0, image_path, 0)
+    elif system == "Linux":
+        os.system(f"feh --bg-fill {image_path}")
     else:
-        print(f"Unsupported platform: {platform.system()}")
+        print(f"Unsupported system: {system}")
 
 
 def main():

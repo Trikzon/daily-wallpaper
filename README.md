@@ -7,17 +7,42 @@ Run the `daily_wallpaper.py` script with python3.
 
 Wallpapers will download into a `./wallpapers` directory next to the `daily_wallpaper.py` file.
 
+### Autorun
+
 For the best experience, run this every day (automatically) for good wallpapers each day.
 
-- Windows: Install [AutoHotkey](https://www.autohotkey.com/), edit `daily_wallpaper.ahk`, and place `daily_wallpaper.ahk` in `C:\Users\NAME\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup`.
+#### Windows
 
+1. Install [AutoHotkey](https://www.autohotkey.com/)
+2. Edit `daily_wallpaper.ahk`
+3. Place `daily_wallpaper.ahk` in `C:\Users\NAME\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup`.
+
+#### Linux
+
+1. Run `$ crontab -e`.
+2. Write `0 3 * * * /path/to/script.py` to have it run daily at 3:00 am.
+3. Running at system startup is system dependent.
 
 ## Dependencies
 
-To install all dependencies:
+To install all python dependencies:
 
 ```
 $ pip install -r requirements.txt
+```
+
+### Windows
+
+No further dependencies needed.
+
+### Linux
+
+Install [feh](https://wiki.archlinux.org/index.php/Feh) with your distro's package manager.
+
+#### Arch
+
+```
+# pacman -S xwallpaper
 ```
 
 ## Credits
