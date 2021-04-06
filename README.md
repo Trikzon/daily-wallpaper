@@ -44,12 +44,6 @@ To install all python dependencies:
 $ pip install -r ./requirements.txt
 ```
 
-#### Arch
-
-```
-# pacman -S feh
-```
-
 ## Credits
 
 I copied a lot of code from [nagracks's reddit_get_top_images](https://github.com/nagracks/reddit_get_top_images) 
