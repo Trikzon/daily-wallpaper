@@ -28,12 +28,12 @@ For the best experience, run this every day (automatically) for good wallpapers 
 
 ### Windows
 
-No further dependencies needed.
-
 To install all python dependencies:
 ```
 $ py -m pip install -r .\requirements.txt
 ```
+
+No further dependencies needed.
 
 ### Linux
 
